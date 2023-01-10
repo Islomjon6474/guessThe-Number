@@ -1,16 +1,13 @@
 let result_input = document.querySelector("#result_input");
 let guessBtn = document.querySelector("#guessBtn");
 let feedback = document.querySelector("#feedback");
-let test = document.querySelector("#test");
 let reload = document.querySelector("#reload");
+let randomNum = Math.floor(Math.random() * 100) + 1;
+let attempts = 0;
 
 reload.addEventListener("click", () => {
   window.location.reload();
 });
-
-let randomNum = Math.floor(Math.random() * 100) + 1;
-
-let attempts = 0;
 
 guessBtn.addEventListener("click", () => {
   if (!result_input.value) {
