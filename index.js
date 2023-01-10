@@ -16,7 +16,9 @@ guessBtn.addEventListener("click", () => {
     attempts++;
     feedback.innerHTML =
       "Congratulations, you win! The number of attempt is " + attempts + ".";
-    window.location.reload();
+    setTimeout(() => {
+      window.location.reload();
+    }, 2000);
   } else if (result_input.value > randomNum) {
     feedback.innerHTML = "Too high.";
     attempts++;
