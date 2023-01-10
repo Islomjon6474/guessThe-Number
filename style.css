@@ -6,7 +6,7 @@
   text-align: center;
 }
 .container {
-  background: linear-gradient(90deg, #7b5ab7, #6b73df);
+  background: linear-gradient(-45deg, orange, red);
   width: 100vw;
   min-height: 100vh;
   display: flex;
@@ -37,9 +37,9 @@ h2 {
   padding: 5px;
   text-align: center;
   height: 4rem;
-  border: 2px solid #7b5ab7;
+  border: 2px solid orange;
   border-radius: 5px;
-  color: #7b5ab7;
+  color: orange;
 }
 .guess {
   width: 6rem;
@@ -50,10 +50,10 @@ h2 {
   border-radius: 3px;
   padding: 0.625rem;
   text-transform: uppercase;
-  background-color: #7b5ab7;
+  background-color: orange;
 }
 p {
-  color: #7b5ab7;
+  color: orange;
 }
 #reload {
   background-color: transparent;
